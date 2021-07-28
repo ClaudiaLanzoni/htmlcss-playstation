@@ -12,6 +12,13 @@
     border-radius: 20px;
 }
 
-.black {
-    background-color: black;
+.grey {
+    background-color: rgba(54,54,54);
+}
+
+.jumbo_bg {
+    background-image: url(../img/jumbo-bg.png);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
