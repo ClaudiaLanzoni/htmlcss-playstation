@@ -8,6 +8,19 @@
     height: 40%;
 }
 
+.jumbo_bg {
+    background-image: url(../img/jumbo-bg.png);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbo_content_wrap {
+    width: 400px;
+    border: 2px solid purple;
+}
+
 .my_br {
     border-radius: 20px;
 }
@@ -16,9 +29,10 @@
     background-color: rgba(54,54,54);
 }
 
-.jumbo_bg {
-    background-image: url(../img/jumbo-bg.png);
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
+.orange {
+    background-color: rgba(205,61,15);
+}
+
+#returnal_logo {
+    width: 70%;
 }
