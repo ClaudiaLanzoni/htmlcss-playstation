@@ -7,3 +7,11 @@
 .top-bar img {
     height: 40%;
 }
+
+.my_br {
+    border-radius: 20px;
+}
+
+.black {
+    background-color: black;
+}
