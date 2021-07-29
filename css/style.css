@@ -39,8 +39,7 @@
     border-radius: 15px;
 }
 
-.console_section,
-.ps5_header {
+.console_section {
     margin-bottom: 100px;
 }
 
@@ -69,9 +68,20 @@
     margin-bottom: 0;
 }
 
-.ps5_header p:last-of-type {
+.ps5_header p:last-of-type,
+.ps5_main p:last-of-type {
     color: rgb(149,149,149);
     margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ps5_header,
+.ps5_main {
+    margin-bottom: 40px;
+}
+
+.ps5_main img {
+   width: 100%;
 }
 
 .my_br {
