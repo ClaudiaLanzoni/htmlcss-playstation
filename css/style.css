@@ -8,18 +8,18 @@
     height: 40%;
 }
 
+/*.jumbo_section {
+    
+}*/
+
 .jumbo_bg {
-    background-image: url(../img/jumbo-bg.png);
     height: 700px;
+    background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 30px;
-}
-
-.jumbo_content_wrap {
-    width: 400px;
-    border: 2px solid purple;
+    padding-top: 400px;
 }
 
 .game_carousel_section {
@@ -27,7 +27,6 @@
 }
 
 .game_carousel {
-    margin-bottom: 50px;
     border: 2px solid transparent;
 }  
 
@@ -38,6 +37,14 @@
 .game_carousel img {
     width: 100%;
     border-radius: 15px;
+}
+
+.console_section {
+    margin-bottom: 100px;
+}
+
+.console_wrap img {
+    width: 100%;
 }
 
 .my_br {
@@ -53,5 +60,5 @@
 }
 
 #returnal_logo {
-    width: 70%;
+    width: 50%;
 }
