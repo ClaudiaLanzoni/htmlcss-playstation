@@ -8,18 +8,11 @@
     height: 40%;
 }
 
-/*.jumbo_section {
-    
-}*/
-
-.jumbo_bg {
-    height: 700px;
-    background-image: url(../img/jumbo-bg.png);
+.jumbo_section {
+    padding: 300px 0 60px 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 30px;
-    padding-top: 400px;
 }
 
 .game_carousel_section {
@@ -83,6 +76,16 @@
 .ps5_main img {
    width: 100%;
 }
+
+#jumbotron_first {
+    background-image: url(../img/jumbo-bg.png);
+    margin-bottom: 30px;
+}
+
+#jumbotron_second {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg); 
+}
+
 
 .my_br {
     border-radius: 20px;
