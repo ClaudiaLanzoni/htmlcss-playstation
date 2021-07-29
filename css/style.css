@@ -15,7 +15,8 @@
     background-size: cover;
 }
 
-.game_carousel_section {
+.game_carousel_section,
+.console_section {
     margin-bottom: 100px;
 }
 
@@ -30,10 +31,6 @@
 .game_carousel img {
     width: 100%;
     border-radius: 15px;
-}
-
-.console_section {
-    margin-bottom: 100px;
 }
 
 .console_wrap {
@@ -75,6 +72,11 @@
 
 .ps5_main img {
    width: 100%;
+}
+
+.nuove_uscite_section {
+    background-color: rgb(31,31,31);
+    padding-top: 30px;
 }
 
 #jumbotron_first {
