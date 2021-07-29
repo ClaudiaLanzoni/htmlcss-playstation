@@ -49,7 +49,7 @@
 }
 
 .console_wrap:hover {
-    border-bottom: 2px solid rgb(61,111,229);;
+    border-bottom: 2px solid rgb(61,111,229);
 }
 
 .ps5_section_header p:first-of-type {
@@ -62,7 +62,6 @@
 .ps5_section_header p:last-of-type,
 .ps5_section_main p:last-of-type,
 .ps4_section_header p:last-of-type {
-    color: rgb(149,149,149);
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -104,8 +103,8 @@
     background-color: rgb(190,188,187);
 }
 
-.ps_plus_wrap_text {
-  
+.nuovi_sconti_section_main img {
+    width: 100%;
 }
 
 #jumbotron_first {
@@ -124,6 +123,10 @@
 
 .grey {
     background-color: rgba(54,54,54);
+}
+
+.grey_color {
+    color: rgb(125,125,125);
 }
 
 .orange {
