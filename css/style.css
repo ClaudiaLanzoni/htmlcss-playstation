@@ -49,32 +49,32 @@
 }
 
 .console_wrap:hover {
-    border-bottom: 2px solid dodgerblue;
+    border-bottom: 2px solid rgb(61,111,229);;
 }
 
-.ps5_header p:first-of-type {
-    color: dodgerblue;
+.ps5_section_header p:first-of-type {
+    color: rgb(61,111,229);
     text-transform: uppercase;
     font-size: 0.8em;
     margin-bottom: 0;
 }
 
-.ps5_header p:last-of-type,
-.ps5_main p:last-of-type,
+.ps5_section_header p:last-of-type,
+.ps5_section_main p:last-of-type,
 .ps4_section_header p:last-of-type {
     color: rgb(149,149,149);
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.ps5_header,
-.ps5_main,
+.ps5_section_header,
+.ps5_section_main,
 .ps4_section_header,
 .nuove_uscite_section {
     margin-bottom: 40px;
 }
 
-.ps5_main img {
+.ps5_section_main img {
    width: 100%;
 }
 
@@ -91,8 +91,21 @@
     font-size: 0.9em;
 }
 
-.ps4_wrap img {
+.ps4_wrap img,
+.ps_plus_section img {
     width: 100%;
+}
+
+.ps4_section_main {
+    margin-bottom: 70px;
+}
+
+.ps_plus_section {
+    background-color: rgb(190,188,187);
+}
+
+.ps_plus_wrap_text {
+    padding: 90px 0 90px 0;
 }
 
 #jumbotron_first {
@@ -117,7 +130,12 @@
     background-color: rgba(205,61,15);
 }
 
+.dodgerblue {
+    color: rgb(61,111,229);
+}
+
 #returnal_logo,
-#takes2_logo {
+#takes2_logo,
+#ps_plus_logo {
     width: 60%;
 }
