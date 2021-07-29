@@ -99,6 +99,7 @@
     background-color: rgba(205,61,15);
 }
 
-#returnal_logo {
-    width: 50%;
+#returnal_logo,
+#takes2_logo {
+    width: 60%;
 }
