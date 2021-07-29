@@ -79,6 +79,18 @@
     padding-top: 30px;
 }
 
+.nuove_uscite_wrap {
+
+}
+
+.nuove_uscite_wrap img {
+    width: 100%;
+}
+
+.nuove_uscite_wrap p {
+    font-size: 0.8em;
+}
+
 #jumbotron_first {
     background-image: url(../img/jumbo-bg.png);
     margin-bottom: 30px;
