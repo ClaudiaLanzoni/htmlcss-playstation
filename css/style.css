@@ -98,8 +98,9 @@
     padding: 80px 0 80px 0;
 }
 
-.footer_section ul {
+.footer_section li {
     list-style: none;
+    line-height: 30px;
 }
 
 /*INIZIO CLASSI GENERICHE*/
