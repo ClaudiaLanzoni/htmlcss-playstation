@@ -15,8 +15,7 @@
     background-size: cover;
 }
 
-.game_carousel_section,
-.console_section {
+.game_carousel_section {
     margin-bottom: 100px;
 }
 
@@ -52,9 +51,9 @@
     border-bottom: 2px solid rgb(61,111,229);
 }
 
-.ps5_section_header,
-.ps5_section_main,
-.ps4_section_header,
+.ps5_section,
+.console_section,
+.ps4_section,
 .nuove_uscite_section {
     margin-bottom: 40px;
 }
@@ -68,17 +67,21 @@
     font-size: 0.9em;
 }
 
-.ps5_section_main img,
+.ps5_section img,
 .ps4_wrap img,
-.ps_plus_section img,
-.ps_now_section img,
 .social_media_section img,
 .nuove_uscite_wrap img,
 .nuovi_sconti_section_main img {
     width: 100%;
 }
 
-.ps4_section_main {
+.ps_plus_section img,
+.ps_now_section img {
+    width: 100%;
+    height: 100%;
+}
+
+.ps4_section {
     margin-bottom: 70px;
 }
 
@@ -89,6 +92,17 @@
 .ps_now_section {
     background-color: rgb(22,28,59);
 }
+
+.footer_section {
+    background-color: rgb(0,67,156);
+    padding: 80px 0 80px 0;
+}
+
+.footer_section ul {
+    list-style: none;
+}
+
+/*INIZIO CLASSI GENERICHE*/
 
 .my_mt_20 {
     margin-top: 20px;
@@ -118,12 +132,21 @@
     color: rgb(61,111,229);
 }
 
+.my_inline {
+    display: inline-block;
+}
+
+.my_underline {
+    text-decoration: underline;
+}
+
 #jumbotron_first {
     background-image: url(../img/jumbo-bg.png);
 }
 
 #jumbotron_second {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg); 
+    padding-top: 60px;
 }
 
 #returnal_logo,
@@ -137,4 +160,8 @@
     text-transform: uppercase;
     font-size: 0.8em;
     margin-bottom: 0;
+}
+
+#footer_sie_logo {
+    width: 20%;
 }
