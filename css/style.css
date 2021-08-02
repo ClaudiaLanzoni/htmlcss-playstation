@@ -109,8 +109,12 @@
     margin-top: 20px;
 }
 
-.my_mb_30 {
-    margin-bottom: 30px;
+.my_pt_30 {
+    padding-top: 30px;
+}
+
+.my_pb_30 {
+    padding-bottom: 30px;
 }
 
 .my_br {
